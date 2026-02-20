@@ -1,6 +1,6 @@
 <script setup>
-import pageData from '@/data/index.json'
-const page = ref(pageData)
+import pageData from "@/data/index.json";
+const page = ref(pageData);
 
 definePageMeta({
   layout: "default",
@@ -8,29 +8,54 @@ definePageMeta({
 </script>
 
 <template>
-  <Container>
-    <Hero
-      :title="page.hero.title"
-      :description="page.hero.description"
-      :image="page.hero.image"
-      :imageAlt="page.hero.imageAlt"
-      :buttons="page.hero.buttons"
-    ></Hero>
-    <Logos :title="page.logos.title" :icons="page.logos.icons"></Logos>
-    <Features
-      :title="page.features.title"
-      :description="page.features.description"
-      :items="page.features.items"
-    ></Features>
-    <Testimonials
-      :title="page.testimonials.title"
-      :description="page.testimonials.description"
-      :items="page.testimonials.items"
-    ></Testimonials>
-    <Cta
-      :title="page.cta.title"
-      :description="page.cta.description"
-      :buttons="page.cta.buttons"
-    ></Cta>
-  </Container>
+  <Hero
+    :greeting="page.hero.greeting"
+    :name="page.hero.name"
+    :roles="page.hero.roles"
+    :description="page.hero.description"
+    :cta="page.hero.cta"
+    :secondary="page.hero.secondary"
+  />
+
+  <AboutMe
+    :title="page.about.title"
+    :subtitle="page.about.subtitle"
+    :description="page.about.description"
+    :description2="page.about.description2"
+    :stats="page.about.stats"
+    :skills="page.about.skills"
+  />
+
+  <Expertise
+    :title="page.expertise.title"
+    :subtitle="page.expertise.subtitle"
+    :items="page.expertise.items"
+  />
+
+  <Projects
+    :title="page.projects.title"
+    :subtitle="page.projects.subtitle"
+    :items="page.projects.items"
+  />
+
+  <Extensions
+    :title="page.extensions.title"
+    :subtitle="page.extensions.subtitle"
+    :items="page.extensions.items"
+  />
+
+  <Testimonials
+    :title="page.testimonials.title"
+    :subtitle="page.testimonials.subtitle"
+    :items="page.testimonials.items"
+  />
+
+  <Contact
+    :title="page.contact.title"
+    :subtitle="page.contact.subtitle"
+    :email="page.contact.email"
+    :formspree-id="page.contact.formspreeId"
+    :location="page.contact.location"
+    :socials="page.contact.socials"
+  />
 </template>

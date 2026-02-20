@@ -1,104 +1,202 @@
 {
   "hero": {
-    "title": "Build Blazing-Fast Websites with Nuxt.js & Netlify",
-    "description": "Craft high-performing, SEO-friendly web experiences with the dynamic power of Nuxt.js and the speed of Netlify's global edge network.",
-    "image": "images/hero.jpg",
-    "imageAlt": "Nuxt logo and title on abstract background",
-    "buttons": [
-      {
-        "label": "Get Started Today",
-        "url": "https://www.netlify.com/"
-      }
-    ]
+    "greeting": "Hello, I'm",
+    "name": "Krishna Mishra",
+    "roles": [
+      "Magento Full-Stack Developer",
+      "eCommerce Solutions Architect",
+      "Custom Module & API Specialist",
+      "CMS & Headless Commerce Developer",
+      "Mobile App Engineer",
+      "DevOps Engineer"
+    ],
+    "description": "I build scalable, high-performance eCommerce platforms, custom Magento modules, headless CMS solutions, and cloud-native infrastructure — engineered for growth and reliability.",
+    "cta": { "label": "Let's Work Together", "url": "#contact" },
+    "secondary": { "label": "View Projects", "url": "#projects" }
   },
-  "logos": {
-    "title": "Trusted by the world's best",
-    "icons": [
-      {
-        "name": "i-simple-icons-gitlab"
-      },
-      {
-        "name": "i-simple-icons-github"
-      },
-      {
-        "name": "i-simple-icons-openai"
-      },
-      {
-        "name": "i-simple-icons-google"
-      },
-      {
-        "name": "i-simple-icons-netlify"
-      }
-    ]
-  },
-  "features": {
-    "title": "Why choose Nuxt.js?",
-    "description": "Nuxt.js is a powerful framework built on top of Vue.js that provides an excellent developer experience.",
+  "expertise": {
+    "title": "What I Do",
+    "subtitle": "Specialized in enterprise eCommerce, custom development, and scalable architecture",
     "items": [
       {
-        "title": "Server-Side Rendering",
-        "description": "Nuxt.js allows you to build SSR applications with Vue.js, ensuring fast initial page loads and better SEO."
+        "title": "Magento Full-Stack Developer",
+        "description": "End-to-end Magento 2 development: theme customization, checkout optimization, performance tuning, and upgrade/migration projects.",
+        "icon": "i-lucide-shopping-cart"
       },
       {
-        "title": "Static Site Generation",
-        "description": "You can pre-render pages at build time for static websites. This helps with performance and scalability by serving content directly from a CDN."
+        "title": "eCommerce Solutions Architect",
+        "description": "Design and deliver multi-store, B2B/B2C, and marketplace solutions with clear technical roadmaps and best practices.",
+        "icon": "i-lucide-layout-grid"
       },
       {
-        "title": "Auto-Routing",
-        "description": "Nuxt automatically generates routes based on the file structure inside the pages directory, reducing the need for manual configuration."
+        "title": "Custom Module & API Specialist",
+        "description": "REST/GraphQL APIs, third-party integrations, payment and shipping modules, and custom business logic for Magento and PHP stacks.",
+        "icon": "i-lucide-puzzle"
       },
       {
-        "title": "File-based Configuration",
-        "description": "Nuxt uses a convention-over-configuration approach, allowing you to define configurations easily in nuxt.config.js without much boilerplate."
+        "title": "CMS & Headless Commerce Developer",
+        "description": "Headless storefronts, PWA, and CMS-driven experiences with modern frontends (Vue, React, Nuxt) and Magento or other commerce backends.",
+        "icon": "i-lucide-monitor"
       },
       {
-        "title": "Dynamic Imports",
-        "description": "It supports lazy loading of components with dynamic imports to improve performance by splitting the code into smaller chunks."
+        "title": "Mobile App Engineer",
+        "description": "Cross-platform mobile apps (Flutter, React Native) for commerce, loyalty, and in-store experiences with secure API integration.",
+        "icon": "i-lucide-smartphone"
       },
       {
-        "title": "SEO Friendly",
-        "description": "With SSR, SSG, and automatic meta tag handling, Nuxt.js ensures your application is SEO-friendly."
+        "title": "DevOps Engineer",
+        "description": "CI/CD pipelines, Docker, Kubernetes, cloud (AWS/GCP), and monitoring to keep eCommerce and APIs fast, secure, and available.",
+        "icon": "i-lucide-server"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Focused on eCommerce, Magento, and scalable software delivery",
+    "description": "I am a senior developer and solutions architect with deep experience in Magento 2, PHP, and modern JavaScript ecosystems. I help brands and agencies ship high-converting stores, custom modules, and headless commerce experiences that scale. My work spans full-stack eCommerce development, API design, mobile apps, and DevOps so that projects are not only built right but also deployed and maintained reliably.",
+    "description2": "I stay current with Adobe Commerce releases, PWA and headless trends, and cloud-native tooling so I can recommend and implement solutions that fit both technical and business goals.",
+    "stats": [
+      { "value": "50+", "label": "eCommerce Projects" },
+      { "value": "30+", "label": "Happy Clients" },
+      { "value": "5+", "label": "Years Experience" },
+      { "value": "10+", "label": "Magento Extensions" }
+    ],
+    "skills": [
+      "Magento 2",
+      "PHP",
+      "Composer",
+      "JavaScript",
+      "Vue.js",
+      "Nuxt",
+      "React",
+      "Node.js",
+      "REST & GraphQL",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Git",
+      "PWA",
+      "Headless Commerce"
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "eCommerce platforms, custom modules, headless storefronts, and integrations",
+    "items": [
+      {
+        "title": "Multi-Store Magento 2 Platform",
+        "description": "Architected and built a multi-website Magento 2 setup with shared catalog, custom B2B pricing, and integrated ERP and shipping providers.",
+        "tags": ["Magento 2", "PHP", "MySQL", "REST API"],
+        "color": "from-[#f26322]/20 to-orange-600/20",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "title": "Headless Commerce Storefront",
+        "description": "PWA storefront with Nuxt and Magento 2 GraphQL: fast front-end, flexible content, and seamless checkout and account features.",
+        "tags": ["Nuxt", "Magento 2", "GraphQL", "PWA"],
+        "color": "from-indigo-500/20 to-purple-500/20",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "title": "Custom Payment & Fulfillment Module",
+        "description": "Magento 2 extension for custom payment flows, multi-warehouse inventory, and automated fulfillment and shipping rules.",
+        "tags": ["Magento 2", "PHP", "REST", "Redis"],
+        "color": "from-emerald-500/20 to-teal-500/20",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "title": "B2B Portal with Quote & Approval",
+        "description": "B2B catalog, custom pricing, quote request and approval workflow, and SSO integration for enterprise clients.",
+        "tags": ["Magento 2", "PHP", "Vue.js", "API"],
+        "color": "from-cyan-500/20 to-blue-500/20",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "title": "Mobile Commerce App",
+        "description": "Cross-platform app for product browse, cart, and checkout with Magento backend, push notifications, and loyalty features.",
+        "tags": ["Flutter", "Magento 2", "REST API", "Firebase"],
+        "color": "from-pink-500/20 to-violet-500/20",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "title": "CI/CD & Cloud for eCommerce",
+        "description": "Docker-based staging and production environments, automated deployments, and monitoring for high-availability Magento and APIs.",
+        "tags": ["Docker", "Kubernetes", "AWS", "GitHub Actions"],
+        "color": "from-amber-500/20 to-orange-500/20",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      }
+    ]
+  },
+  "extensions": {
+    "title": "Magento Extensions & Tools",
+    "subtitle": "Open-source and reusable modules for the Magento and eCommerce community",
+    "items": [
+      {
+        "title": "Custom Checkout Module",
+        "description": "Magento 2 extension for streamlined checkout, custom fields, and integration hooks for payment and shipping.",
+        "icon": "i-lucide-credit-card",
+        "downloads": "2K+",
+        "url": "#"
+      },
+      {
+        "title": "API Gateway Helpers",
+        "description": "Composer package and Magento module for consistent REST/GraphQL API versioning, auth, and rate limiting.",
+        "icon": "i-lucide-shield-check",
+        "downloads": "1.5K+",
+        "url": "#"
+      },
+      {
+        "title": "Admin Dashboard Widgets",
+        "description": "Reusable Magento 2 admin UI components and dashboard widgets for orders, inventory, and custom KPIs.",
+        "icon": "i-lucide-layout-template",
+        "downloads": "1K+",
+        "url": "#"
+      },
+      {
+        "title": "Dev & Deployment Scripts",
+        "description": "CLI and CI scripts for local Magento setup, DB sync, and deployment to staging and production.",
+        "icon": "i-lucide-terminal",
+        "downloads": "800+",
+        "url": "#"
       }
     ]
   },
   "testimonials": {
-    "title": "What Our Users Are Saying",
-    "description": "Hear from our clients about their experiences working with Nuxt and Netlify.",
+    "title": "What Clients Say",
+    "subtitle": "From eCommerce leads, technical directors, and project owners",
     "items": [
       {
-        "quote": "Nuxt has made building our projects so much easier and more enjoyable! Its simple setup and powerful features help us create fast, responsive websites with minimal effort.",
-        "author": {
-          "name": "Daniel H.",
-          "title": "Marketing Specialist at Some Company",
-          "avatar": "images/person-1.jpg"
-        }
+        "quote": "Krishna delivered our Magento 2 migration on time and our conversion rate improved. His knowledge of eCommerce and clean code made the project smooth.",
+        "author": { "name": "Sarah L.", "title": "Head of Digital, Retail Brand", "avatar": "images/person-2.jpg" }
       },
       {
-        "quote": "The scalability offered by Netlify and the flexibility of Nuxt have allowed us to expand our site's functionality without worrying about performance issues. This combination is a powerful solution for any growing business.",
-        "author": {
-          "name": "Sarah L.",
-          "title": "CEO at Some Company",
-          "avatar": "images/person-2.jpg"
-        }
+        "quote": "We needed custom modules and API integrations that matched our B2B workflow. Krishna designed and built exactly that — reliable and well documented.",
+        "author": { "name": "Daniel H.", "title": "CTO, B2B Platform", "avatar": "images/person-1.jpg" }
       },
       {
-        "quote": "Switching to Nuxt and Netlify was a game-changer for our development process. The seamless integration between the two platforms allowed us to deploy faster and with fewer headaches.",
-        "author": {
-          "name": "Mark T.",
-          "title": "Frontend Engineer at Some Company",
-          "avatar": "images/person-3.jpg"
-        }
+        "quote": "From headless storefront to DevOps setup, Krishna brought a full-stack perspective that saved us time and reduced risk. Highly recommend for eCommerce projects.",
+        "author": { "name": "Mark T.", "title": "Technical Director, Agency", "avatar": "images/person-3.jpg" }
       }
     ]
   },
-  "cta": {
-    "title": "Start Building with Nuxt & Netlify",
-    "description": "Let your next project be smarter, faster, and effortlessly deployable.",
-    "buttons": [
-      {
-        "label": "Get Started Today",
-        "url": "https://www.netlify.com/"
-      }
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have an eCommerce, Magento, or integration project? I'd love to hear about it and discuss how we can work together.",
+    "email": "hello@krishnam2.com",
+    "formspreeId": "xwvnnylq",
+    "location": "Available Worldwide — Remote",
+    "socials": [
+      { "name": "GitHub", "icon": "i-simple-icons-github", "url": "https://github.com" },
+      { "name": "LinkedIn", "icon": "i-simple-icons-linkedin", "url": "https://linkedin.com" },
+      { "name": "Twitter", "icon": "i-simple-icons-x", "url": "https://x.com" }
     ]
   }
-} 
+}
